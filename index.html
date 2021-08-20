@@ -10,19 +10,19 @@
 <body>
     <header>
         <h1 id="pageName">Dojo Weather</h1>
-        <ul class="cities">
+        <div class="cities">
             <button class="cityLink" onclick="alert('Loading weather report...')">Dallas</button>
             <button class="cityLink" onclick="alert('Loading weather report...')">Burbank</button>
             <button class="cityLink" onclick="alert('Loading weather report...')">Chicago</button>
-        </ul>
+        </div>
     </header>
     <div class="container">
         <div class="location">
             <h2>San Jose</h2>
             <p><b>show temperature in </b>
-                <select> Celcius
-                    <option value="">&#176 C</option>
-                    <option onclick="tooFarh()" value="F">&#176 F</option> 
+                <select>
+                    <option value="">&#176;C</option>
+                    <option onclick="tooFarh()" value="F">&#176;F</option> 
                 </select>
             </p>
         </div>
@@ -70,7 +70,7 @@
         <h1 id=cookieTitle>Stop! Cookie time</h1>
         <div class="infoCookie">
             <div class="cookieImg">
-                <img src="images/cookie.png">
+                <img src="images/cookie.png" alt="cookie picture">
             </div>
             <p> 
                 We use cookies (sadly not the edible ones) to personalize content and ads, to personalize
