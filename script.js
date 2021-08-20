@@ -29,3 +29,30 @@ function tooFarh(){
         myElement8.innerText = "70";
         console.log(myElement1);
 }
+
+function toCel(){
+    myElement1 = document.querySelector(".temp1");
+        myElement1.innerText = "24";
+        console.log(myElement1);
+    myElement2 = document.querySelector(".temp2");
+        myElement2.innerText = "18";
+        console.log(myElement1);
+    myElement3 = document.querySelector(".temp3");
+        myElement3.innerText = "27";
+        console.log(myElement1);
+    myElement4 = document.querySelector(".temp4");
+        myElement4.innerText = "19";
+        console.log(myElement1);
+    myElement5 = document.querySelector(".temp5");
+        myElement5.innerText = "21";
+        console.log(myElement1);
+    myElement6 = document.querySelector(".temp6");
+        myElement6.innerText = "16";
+        console.log(myElement1);
+    myElement7 = document.querySelector(".temp7");
+        myElement7.innerText = "26";
+        console.log(myElement1);
+    myElement8 = document.querySelector(".temp8");
+        myElement8.innerText = "21";
+        console.log(myElement1);
+}
